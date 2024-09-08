@@ -1,0 +1,1397 @@
+:root{
+  --white: #fff;
+  --orange: #FA7436;
+  --orange-light: #FD8D3A;
+  --text-light: #666666;
+  --bg: #F7F8FC;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.travel-agency-landing {
+    background-color: #FEFCFB;
+  }
+  
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    top: 0px;
+    z-index: 999;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  margin-left: 150px;
+  color: var(--text-color);
+}
+
+.logo-image{
+  width: 20px;
+  height: 20px;
+  margin-top: 23px;
+  margin-left: 5px;
+}
+
+.header-links {
+  margin: 10px;
+  width: 30%;
+}
+
+.header-links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  list-style: none;
+}
+
+.profile {
+  margin: 10px;
+  width: 15%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 200px;
+}
+
+.profile a {
+  text-decoration: none;
+  color: var(--orange-light);
+  margin: 1px;
+  font-size: large;
+}
+  
+.profile button {
+  margin-top: -5px;
+}
+
+.home {
+  height: 100vh;
+  top: 70px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.home-content {
+  width: 50%;
+  /* background-color: #cd4400; */
+  text-align: left;
+  padding-left: 150px;
+}
+.home-content h1 {
+  font-size: 60px;
+  font-family: "Volkhov", serif;
+}
+
+.home-content p {
+  font-size: 20px;
+  width: 75%;
+  text-align: justify;
+  line-height: 1.8;
+  font-weight: 300;
+  color: var(--text-light);
+}
+
+.btn {
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: var(--orange);
+  color: var(--white);
+  border-radius: 5px;
+}
+
+.home-btn {
+  height: 40px;
+  border: 1px solid;
+  border-color: var(--orange);
+  background-color: var(--white);
+  color: var(--orange);
+}
+
+.home-content span {
+  color: #FA7436;
+}
+
+.home-right {
+  width: 50%;
+  margin: 10px;
+}
+
+.home-right img {
+  margin-top: 50px;
+  width: 480px;
+}
+
+.right-card {
+  width: 160px;
+  height: 66px;
+  background-color: #ffffff;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  /* overflow: hidden; */
+}
+
+.top {
+  position: absolute;
+  top: 140px;
+  right: 590px;
+}
+
+.middle {
+  position: absolute;
+  top: 260px;
+  right: 200px;
+}
+
+.bottom {
+  position: absolute;
+  top: 370px;
+  right: 520px;
+}
+
+.home-img {
+  position: absolute;
+  width: 785px;
+  right: 20px;
+  z-index: 0;
+}
+
+.right-card img {
+  width: 32px;
+  height: 32px;
+  margin: 10px;
+  margin-top: 15px;
+}
+
+.right-card-content {
+  height: 66px;
+  margin-top: 0;
+}
+
+.right-card h4 {
+  position: relative;
+  top: -15px;
+}
+.right-card-content p {
+  position: relative;
+  top: -40px;
+  font-size: 12px;
+}
+
+
+  .features-section {
+    background-color: #f7f8fc;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  .features-container {
+    display: flex;
+    margin-bottom: -24px;
+    width: 1170px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  
+  .features-content {
+    align-self: end;
+    margin-right: 78px;
+    width: 767px;
+    max-width: 100%;
+  }
+  
+  .features-row {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .features-text-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 74%;
+    margin-left: 0;
+  }
+  
+  .features-text-wrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+  }
+  
+  .features-title {
+    font: 700 48px/1 Volkhov, sans-serif;
+    font-size: 48px;
+  }
+  
+  .features-description {
+    color: #666;
+    text-align: center;
+    align-self: center;
+    margin-top: 24px;
+    font: 400 18px/32px Poppins, sans-serif;
+  }
+  
+  .features-image-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 26%;
+    margin-left: 20px;
+  }
+  
+  .features-image {
+    aspect-ratio: 1.37;
+    object-fit: contain;
+    width: 180px;
+    max-width: 100%;
+  }
+  
+  .feature-icons-container {
+    margin-top: 64px;
+    width: 100%;
+    height: 50vh;
+  }
+  
+  .feature-icons-row {
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .feature-icon-column {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    line-height: normal;
+    width: 23%;
+    background-color: var(--white);
+    border-radius: 10px;
+  }
+  
+  .feature-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .feature-icon-column p {
+    font-size: 14px;
+  }
+  
+  .deals-section {
+    display: flex;
+    width: 100%;
+    height: 130vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  .deals-container {
+    display: flex;
+    margin-bottom: -24px;
+    width: 1170px;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .deals-title {
+    color: #fa7436;
+    font: 700 48px/1 Volkhov, sans-serif;
+  }
+  
+  .deals-description {
+    color: #666;
+    text-align: center;
+    margin-top: 24px;
+    width: 433px;
+    font: 400 18px/32px Poppins, sans-serif;
+  }
+  
+  .deals-grid {
+    align-self: stretch;
+    margin-top: 64px;
+  }
+  
+  .deals-row {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .deal-card {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5;
+    width: 25%;
+    margin-left: 0;
+  }
+  
+  .deal-card-content {
+    border-radius: 8px;
+    background-color: #fefcfb;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    padding-bottom: 32px;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid rgba(102, 102, 102, 0.08);
+  }
+  
+  .deal-image {
+    aspect-ratio: 0.93;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .firenze {
+    opacity: 0.5;
+  }
+
+  .book-now-btn {
+    position: relative;
+    top: -100px;
+  }
+
+  .deal-hover {
+    height: 0;
+  }
+  
+  .deal-info {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 20px 16px 0;
+  }
+  
+  .deal-location {
+    color: #222;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  
+  .deal-rating {
+    align-self: start;
+    display: flex;
+    gap: 8px;
+    font-size: 16px;
+    color: #666;
+    font-weight: 400;
+    margin-top: 25px;
+  }
+
+  .deals-decoration {
+    width: 104px;
+    height: 40px;
+    margin: 25px;
+  }
+  
+  .rating-icon {
+    object-fit: contain;
+    width: 16px;
+    border-radius: 0px;
+  }
+  
+  .deal-details {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    justify-content: space-between;
+    margin: 18px 16px 0;
+  }
+  
+  .deal-country {
+    align-self: start;
+    display: flex;
+    gap: 8px;
+    color: #666;
+    font-weight: 400;
+    line-height: 1;
+  }
+  
+  .country-icon {
+    aspect-ratio: 0.81;
+    object-fit: contain;
+    width: 13px;
+    fill: #999;
+    margin: auto 0;
+  }
+  
+  .deal-price {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .original-price {
+    color: #666;
+    font-weight: 500;
+    margin: auto 0;
+  }
+  
+  .discounted-price {
+    border-radius: 8px;
+    background-color: #ffe7db;
+    color: #fa7436;
+    font-weight: 600;
+    padding: 2px 5px;
+  }
+  
+  .vacation-plan-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 120px 80px; */
+    padding-top: 50px;
+  }
+  
+  .vacation-plan-container {
+    display: flex;
+    width: 1000px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  
+  .vacation-plan-content {
+    max-width: 100%;
+  }
+  
+  .vacation-plan-row {
+    gap: 20px;
+  }
+  
+  .vacation-plan-text-column {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: normal;
+    width: 100%;
+  }
+  
+  .vacation-plan-text-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .vacation-plan-title {
+    margin: 0 44px 0 42px;
+    font: 700 48px/1 Volkhov, sans-serif;
+  }
+  
+  .vacation-plan-description {
+    color: #666;
+    text-align: center;
+    margin-top: 24px;
+    font: 400 18px/32px Poppins, sans-serif;
+  }
+  
+  .vacation-plan-image-column {
+    height: 0;
+  }
+  
+  .vacation-plan-image {
+    position: relative;
+    top: -120px;
+    left: 900px;
+    object-fit: contain;
+    width: 106px;
+    max-width: 100%;
+  }
+  
+  .vacation-plan-decoration {
+    aspect-ratio: 2.8;
+    object-fit: contain;
+    width: 112px;
+    align-self: end;
+    max-width: 100%;
+  }
+  
+  .vacation-options {
+    margin-top: 24px;
+  }
+  
+  .vacation-options-row {
+    gap: 30px;
+    display: flex;
+  }
+  
+  .vacation-option-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 43%;
+    margin-left: 0;
+  }
+  
+  .vacation-option-image {
+    aspect-ratio: 0.83;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 16px;
+    flex-grow: 1;
+  }
+  
+  .vacation-option-card {
+    border-radius: 16px;
+    background-color: #fefcfb;
+    box-shadow: 0 16px 80px rgba(254, 147, 94, 0.2);
+    display: flex;
+    width: 100%;
+    height: 55vh;
+    flex-direction: column;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    margin: 0 auto;
+    padding: 0 1px 24px;
+  }
+  
+  .vacation-option-image {
+    aspect-ratio: 1.13;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 16px;
+    align-self: stretch;
+  }
+  
+  .vacation-option-info {
+    display: flex;
+    margin-top: 5px;
+    width: 319px;
+    max-width: 100%;
+    gap: 20px;
+    font-size: 24px;
+    line-height: 1;
+    justify-content: space-between;
+  }
+  
+  .vacation-option-location {
+    color: #222;
+    font-weight: 400;
+  }
+  
+  .vacation-option-price {
+    color: #fa7436;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+  .vacation-option-details {
+    display: flex;
+    width: 319px;
+    max-width: 100%;
+    gap: 20px;
+    font-size: 16px;
+    color: #666;
+    justify-content: space-between;
+  }
+  
+  .vacation-option-duration {
+    display: flex;
+    gap: 18px;
+    font-weight: 500;
+  }
+  
+  .duration-icon {
+    aspect-ratio: 1.19;
+    object-fit: contain;
+    width: 19px;
+    margin: auto 0;
+  }
+  
+  .vacation-option-rating {
+    display: flex;
+    gap: 9px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .rating-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 16px;
+    border-radius: 10px;
+    margin: auto 0;
+  }
+  
+  .testimonials-section {
+    background-color: #f7f8fc;
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  .testimonials-container {
+    width: 1225px;
+    max-width: 100%;
+    margin: 0 0 -24px 29px;
+  }
+  
+  .testimonials-row {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .testimonials-text-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 36%;
+    margin-left: 0;
+  }
+  
+  .testimonials-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.8;
+    /* align-self: stretch; */
+    margin: auto 0;
+  }
+  
+  .testimonials-title {
+    text-transform: lowercase;
+    font: 700 48px/54px Volkhov, sans-serif;
+  }
+  
+  .testimonials-description {
+    color: #666;
+    margin-top: 24px;
+    font: 400 16px/32px Roboto, sans-serif;
+  }
+  
+  .testimonials-decoration {
+    aspect-ratio: 2.8;
+    object-fit: contain;
+    width: 112px;
+    margin-top: 32px;
+    max-width: 100%;
+  }
+  
+  .testimonials-content-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 64%;
+    margin-left: 20px;
+  }
+  
+  .testimonials-content-wrapper {
+    display: flex;
+    flex-grow: 1;
+    gap: 19px;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial-avatar {
+    z-index: 99;
+    object-fit: contain;
+    width: 68px;
+    border-radius: 50%;
+    position: relative;
+    top: -175px;
+  }
+  
+  .testimonial-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+    width: fit-content;
+  }
+  
+  .testimonial-decoration {
+    aspect-ratio: 0.9;
+    object-fit: contain;
+    width: 169px;
+    align-self: end;
+    max-width: 100%;
+  }
+  
+  .testimonial-card {
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(34, 34, 34, 0.35);
+    background-color: #FA7436;
+    display: flex;
+    width: 470px;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 48px 22px 0;
+    border: 2px solid rgba(102, 102, 102, 0.08);
+  }
+  
+  .testimonial-content {
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 100px 80px 0 rgba(0, 0, 0, 0.02), 0 64.815px 46.852px 0 rgba(0, 0, 0, 0.02), 0 38.519px 25.481px 0 rgba(0, 0, 0, 0.01), 0 20px 13px 0 rgba(0, 0, 0, 0.01), 0 8.148px 6.519px 0 rgba(0, 0, 0, 0.01), 0 1.852px 3.148px 0 rgba(0, 0, 0, 0);
+    z-index: 10;
+    display: flex;
+    margin-top: -90px;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 36px 34px;
+    width: 450px;
+    position: relative;
+    right: 50px;
+  }
+  
+  .testimonial-text {
+    color: #444;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    align-self: start;
+    z-index: 10;
+  }
+  
+  .testimonial-author {
+    color: #4e4e73;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    align-self: start;
+  }
+  
+  .testimonial-author-info {
+    display: flex;
+    margin-left: 34px;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+  }
+  
+  .author-name {
+    color: #222;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.5;
+  }
+  
+  .author-title {
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.5;
+    margin-top: 0px;
+  }
+  
+  .blog-section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    height: 120vh;
+  }
+  
+  .blog-container {
+    display: flex;
+    margin-bottom: -24px;
+    width: 1170px;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .blog-title {
+    color: #000;
+    font: 700 48px/1 Volkhov, sans-serif;
+  }
+  
+  .blog-grid {
+    align-self: stretch;
+    margin-top: 64px;
+  }
+  
+  .blog-row {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+    margin-left: 0;
+  }
+  
+  .blog-card-content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .blog-image {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 8px;
+    align-self: stretch;
+  }
+  
+  .blog-post-title {
+    color: #222;
+    margin-top: 24px;
+    font: 500 18px/26px Poppins, sans-serif;
+  }
+  
+  .blog-post-date {
+    color: #999;
+    margin-top: 16px;
+    font: 400 16px/2 Inter, sans-serif;
+  }
+  
+  .blog-decoration {
+    aspect-ratio: 3.86;
+    object-fit: contain;
+    width: 54px;
+    margin-top: 45px;
+  }
+  
+  .footer {
+    background-color: var(--bg);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    height: 95vh;
+  }
+  
+  .newsletter-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -180px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 80px;
+    background-color: var(--orange);
+    border-radius: 10px;
+  }
+  
+  .newsletter-background-1 {
+    position: absolute;
+    width: 300px;
+    height: 300;
+    top: 150px;
+    left: 10px;
+  }
+
+  .newsletter-background-2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 5px;
+    right: 10px;
+  }
+  
+  .newsletter-text {
+    position: relative;
+    display: flex;
+    margin-left: 40px;
+    width: 674px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  
+  .newsletter-title {
+    color: #fff;
+    text-align: center;
+    margin: 0 12px 0 17px;
+    font: 700 48px Volkhov, sans-serif;
+  }
+  
+  .newsletter-form {
+    border-radius: 10px;
+    background: #fff;
+    display: flex;
+    margin-top: 64px;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 9px 9px 9px 22px;
+    font: 400 16px Poppins, sans-serif;
+  }
+  
+  .newsletter-input-wrapper {
+    display: flex;
+    gap: 8px;
+    color: #999;
+    margin: auto 0;
+  }
+  
+  .newsletter-icon {
+    aspect-ratio: 1.19;
+    object-fit: contain;
+    width: 19px;
+    border-radius: 0;
+    margin: auto 0;
+  }
+  
+  .newsletter-input {
+    flex-basis: auto;
+    border: none;
+    outline: none;
+    font: inherit;
+    color: inherit;
+  }
+  
+  .newsletter-submit {
+    border-radius: 8px;
+    background: #fa7436;
+    color: #fff;
+    border: none;
+    padding: 13px 26px;
+    font: inherit;
+    cursor: pointer;
+  }
+  
+  .footer-container {
+    display: flex;
+    width: 1172px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  
+  .footer-content {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .footer-brand-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 47%;
+    margin-left: 0;
+  }
+  
+  .footer-brand-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .footer-logo-wrapper {
+    display: flex;
+    gap: 10px;
+    color: #222;
+    letter-spacing: 0.14px;
+    font: 700 24px/1 Volkhov, sans-serif;
+  }
+  
+  .footer-logo-text {
+    flex-grow: 1;
+  }
+  
+  .footer-logo-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 19px;
+    fill: #666;
+    margin: auto 0;
+  }
+  
+  .footer-description {
+    color: #666;
+    align-self: stretch;
+    margin-top: 24px;
+    font: 500 16px/32px Poppins, sans-serif;
+  }
+  
+  .footer-social-icons {
+    aspect-ratio: 3.66;
+    object-fit: contain;
+    width: 176px;
+    margin-top: 16px;
+    max-width: 100%;
+  }
+  
+  .footer-links-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 17%;
+    margin-left: 20px;
+  }
+  
+  .footer-links-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: #666;
+    font: 400 18px/1 Poppins, sans-serif;
+  }
+  
+  .footer-links-title {
+    color: #222;
+    font-weight: 600;
+    align-self: stretch;
+  }
+  
+  .footer-link {
+    margin-top: 16px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .footer-link:first-of-type {
+    margin-top: 32px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+    color: #666;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font: 400 16px Poppins, sans-serif;
+  }
+  
+  .footer-copyright,
+  .footer-terms {
+    opacity: 0.8;
+  }
+  
+  .footer-terms {
+    text-align: right;
+  }
+  
+  @media (max-width: 991px) {
+    .hero-image {
+      max-width: 100%;
+    }
+  
+    .features-section {
+      max-width: 100%;
+      padding: 100px 20px;
+    }
+  
+    .features-container {
+      margin-bottom: 10px;
+    }
+  
+    .features-content {
+      margin-right: 10px;
+    }
+  
+    .features-row {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .features-text-column,
+    .features-image-column {
+      width: 100%;
+    }
+  
+    .features-text-wrapper {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .features-title {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  
+    .features-description {
+      max-width: 100%;
+    }
+  
+    .features-image {
+      margin-top: 40px;
+    }
+  
+    .feature-icons-container {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .feature-icons-row {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .feature-icon-column {
+      width: 100%;
+    }
+  
+    .feature-icon {
+      margin-top: 30px;
+    }
+  
+    .deals-section {
+      max-width: 100%;
+      padding: 100px 20px;
+    }
+  
+    .deals-container {
+      margin-bottom: 10px;
+    }
+  
+    .deals-title {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  
+    .deals-grid {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .deals-row {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .deal-card {
+      width: 100%;
+    }
+  
+    .deal-card-content {
+      margin-top: 30px;
+    }
+  
+    .deal-info,
+    .deal-details {
+      margin: 0 10px;
+    }
+  
+    .vacation-plan-section {
+      max-width: 100%;
+      padding: 100px 20px;
+    }
+  
+    .vacation-plan-container {
+      margin-right: 3px;
+    }
+  
+    .vacation-plan-row {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .vacation-plan-text-column,
+    .vacation-plan-image-column {
+      width: 100%;
+    }
+  
+    .vacation-plan-text-wrapper {
+      margin-top: 40px;
+    }
+  
+    .vacation-plan-title {
+      max-width: 100%;
+      margin-right: 10px;
+      font-size: 40px;
+    }
+  
+    .vacation-plan-description {
+      max-width: 100%;
+    }
+  
+    .vacation-plan-image {
+      margin-top: 40px;
+    }
+  
+    .vacation-options {
+      max-width: 100%;
+    }
+  
+    .vacation-options-row {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .vacation-option-column {
+      width: 100%;
+    }
+  
+    .vacation-option-card {
+      margin-top: 30px;
+    }
+  
+    .vacation-option-info,
+    .vacation-option-details {
+      margin: 0 10px;
+    }
+  
+    .testimonials-section {
+      max-width: 100%;
+      padding: 100px 20px 0;
+    }
+  
+    .testimonials-container {
+      margin-bottom: 10px;
+    }
+  
+    .testimonials-row {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .testimonials-text-column,
+    .testimonials-content-column {
+      width: 100%;
+    }
+  
+    .testimonials-text-wrapper {
+      margin-top: 40px;
+    }
+  
+    .testimonials-title {
+      margin-right: 6px;
+      font-size: 40px;
+      line-height: 50px;
+    }
+  
+    .testimonials-content-wrapper {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .testimonial-avatar {
+      margin-top: 40px;
+    }
+  
+    .testimonial-card {
+      padding-right: 20px;
+    }
+  
+    .testimonial-content {
+      max-width: 100%;
+      padding-left: 20px;
+    }
+  
+    .blog-section {
+      max-width: 100%;
+      padding: 100px 20px;
+    }
+  
+    .blog-container {
+      margin-bottom: 10px;
+    }
+  
+    .blog-title {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  
+    .blog-grid {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .blog-row {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .blog-card {
+      width: 100%;
+    }
+  
+    .blog-card-content {
+      margin-top: 30px;
+    }
+  
+    .blog-decoration {
+      margin-top: 40px;
+    }
+  
+    .newsletter-content {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  
+    .newsletter-title {
+      max-width: 100%;
+      margin-right: 10px;
+      font-size: 40px;
+    }
+  
+    .newsletter-form {
+      max-width: 100%;
+      padding-left: 20px;
+      margin-top: 40px;
+    }
+  
+    .newsletter-submit {
+      padding: 0 20px;
+    }
+  
+    .footer {
+      max-width: 100%;
+      padding: 100px 20px 0;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .footer-brand-column,
+    .footer-links-column {
+      width: 100%;
+    }
+  
+    .footer-brand-content {
+      margin-top: 40px;
+    }
+  
+    .footer-links-list {
+      margin-top: 40px;
+    }
+  
+    .footer-bottom {
+      max-width: 100%;
+    }
+  }
+  
