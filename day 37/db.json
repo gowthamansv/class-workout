@@ -65,14 +65,6 @@
       "id": "12"
     },
     {
-      "title": "Regional Marketing Engineer",
-      "location": "Ebonyport",
-      "company": "Schultz - Murazik",
-      "description": "Product",
-      "isFavorite": true,
-      "id": "13"
-    },
-    {
       "title": "Customer Accountability Producer",
       "location": "Hauckview",
       "company": "Kunze - Jerde",
@@ -765,7 +757,7 @@
       "location": "Murazikcester",
       "company": "Hodkiewicz and Sons",
       "description": "Global",
-      "isFavorite": false,
+      "isFavorite": true,
       "id": "100"
     },
     {
@@ -783,22 +775,6 @@
       "company": "Koepp, Johnston and Vandervort",
       "description": "Human",
       "isFavorite": false
-    },
-    {
-      "id": "103",
-      "title": "testing job",
-      "location": "Alicestad",
-      "company": "Koepp, Johnston and Vandervort",
-      "description": "Human",
-      "isFavorite": false
-    },
-    {
-      "id": "1",
-      "title": "Principal",
-      "location": "O'Conneview",
-      "company": "Moore collor Sons",
-      "description": "Chief",
-      "isFavorite": true
     }
   ],
   "users": [
