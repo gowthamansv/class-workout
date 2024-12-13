@@ -1,0 +1,31 @@
+{
+  "name": "day-38",
+  "version": "1.0.0",
+  "description": "database connectivity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "like": "json-server --port 3001 --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gowthamansv/class-workout.git"
+  },
+  "author": "gowthaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gowthamansv/class-workout/issues"
+  },
+  "homepage": "https://github.com/gowthamansv/class-workout#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "json-server": "^1.0.0-beta.3",
+    "mongoose": "^8.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
